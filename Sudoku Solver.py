@@ -115,7 +115,8 @@ class cell(board):
     def gety(self):
         return self.y
 
-
+#This is the starting board where 0 represents an empty space and each number represents a block. Fill in your starting sudoku puzzle before running and the output will be the solved version
+    
 x = [[0, 0, 0, 0, 4, 0, 8, 0, 0],
      [8, 0, 0, 0, 3, 9, 0, 0, 0],
      [5, 6, 0, 0, 0, 0, 0, 0, 0],
